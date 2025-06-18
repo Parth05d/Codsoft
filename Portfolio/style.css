@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    gap: 2rem;
+    max-width: 80%;
+    margin: auto;
+    background-color: #222831;
+    color: #948979;
+    overflow-x: hidden;
+}
+
+section{
+    margin: 5vh;
+    padding: 5vh;
+    background-color: #393E46;
+    border-radius: 5vh;
+}
+
+h2{
+    margin-bottom: 2vh;
+    font-size: 2.5rem;
+}
+
+header{
+    font-size: 5vh;
+    font-weight: 900;
+}
+
+.about-container{
+    display: flex;
+    justify-content:flex-start;
+    gap: 2rem;
+    max-width: 100%;
+    margin: auto;
+}
+
+.about-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vh;
+}
+
+.about-text p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  max-width: 80vh;
+}
+
+.about-container img{
+    height: 35vh;
+    width: 35vh;
+    background-color: #948979;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.skills button{
+    height: auto;
+    width: auto;
+    margin-right: 2vh;
+    padding: 2vh;
+    font-size: 1.5vh;
+    font-weight: 800;
+    border-radius: 4vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.75);
+    background-color: #393E46;
+    color: #948979;
+}
+
+.skills button:hover{
+    background-color: #222831;
+}
+
+.projects-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.projects-container img{
+    height: 50vh;
+    width: 50vh;
+    object-fit: cover;
+    border-radius: 1vh;
+}
+
+.projects-container p{
+    font-size: 1.25rem;
+    line-height: 1.6;
+    max-width: 50vh;
+}
+
+.tic-tac-toe, .currency-converter{
+    padding: 3vh;
+    border-radius: 2vh;
+    background-color: #393E46;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.75);
+}
+
+.contact img{
+    height: 3vh;
+    width: 3vh;
+}
+
+.download-btn {
+    padding: 1.2vh;
+    border-radius: 2vh;
+    background-color: #393E46;
+    color: #948979;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.75);
+}
+
+.download-btn:hover {
+  background-color: #222831;
+}
+
+.mail, .phone{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 80%;
+}
+
+.contact-container{
+    display: flex;
+    margin: 2vh;
+}
+
+.contact-container p{
+    margin-left: 2vh;
+    margin-right: 2vh;
+    font-size: 1.25rem;
+}
